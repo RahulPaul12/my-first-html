@@ -1,0 +1,47 @@
+body{
+    background-color: royalblue;
+    font-family: 'Times New Roman', Times, serif;
+}
+.login{
+    width: 400px;
+    margin: 16px auto;
+    font-size: 16px;
+
+}
+.head,.login p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.login p{
+    padding: 12px;
+}
+.login-tri{
+    width: 1;
+    
+    border: 12px solid transparent;
+    border-bottom-color: #28d;
+
+}
+.head{
+    background: #28d;
+    padding: 20px;
+    font-size: 1.4em;
+    font-weight: normal;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+}
+.container{
+    background: #ebebeb;
+    padding: 12px;
+}
+.login input{
+    box-sizing: border-box;
+    box-shadow: teal;
+    display: block;
+    width: 100%;
+    border-width: 1px;
+    border-style: solid;
+    padding: 16px;
+
+}
